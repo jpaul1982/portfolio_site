@@ -1,8 +1,13 @@
 import PropTypes from 'prop-types'
 import React from 'react'
-import pic01 from '../images/pic01.jpg'
-import pic02 from '../images/pic02.jpg'
 import pic03 from '../images/pic03.jpg'
+import weather from "../images/WeatherApp.png"
+import veronikas from "../images/veronikas.png"
+import withall from "../images/withall.png"
+import todo from "../images/todo.png"
+import paul from "../images/paul.jpg"
+import paulguitar from "../images/paulguitar.jpg"
+
 
 class Main extends React.Component {
   render() {
@@ -30,28 +35,15 @@ class Main extends React.Component {
         >
           <h2 className="major">Intro</h2>
           <span className="image main">
-            <img src={pic01} alt="" />
+            <img src={paul} alt="" />
           </span>
           <p>
-            Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin
-            aliquam facilisis ante interdum congue. Integer mollis, nisl amet
-            convallis, porttitor magna ullamcorper, amet egestas mauris. Ut
-            magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas.
-            By the way, check out my <a href="#work">awesome work</a>.
+           Hi!  I'm Paul.  I am an aspiring software developer looking to carve out a nice in the tech world to all home. 
+             I'm still fairly new to the world of software engineering, but it's been an amazing journey so far.   I graduated 
+           from the Full Stack Software Developer Bootcamp at Prime Digital Academy in Minneapolis in August of 2019.  I'm really excited by front end 
+           development in particular.  I hope you enjoy my development portfolio!
           </p>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-            dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora
-            torquent per conubia nostra, per inceptos himenaeos. Etiam tristique
-            libero eu nibh porttitor fermentum. Nullam venenatis erat id
-            vehicula viverra. Nunc ultrices eros ut ultricies condimentum.
-            Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae
-            dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in
-            lectus. Pellentesque habitant morbi tristique senectus et netus et
-            malesuada fames ac turpis egestas. In non lorem sit amet elit
-            placerat maximus. Pellentesque aliquam maximus risus, vel sed
-            vehicula.
-          </p>
+          
           {close}
         </article>
 
@@ -64,7 +56,17 @@ class Main extends React.Component {
         >
           <h2 className="major">Work</h2>
           <span className="image main">
-            <img src={pic02} alt="" />
+          <a href="https://veronikas.herokuapp.com/#/home" target="_blank"><img src={veronikas}></img>Veronikas</a> 
+            {/* <img src={pic02} alt="" /> */}
+          </span>
+          <span className="image main">
+          <a href="https://paulsweatherapp.herokuapp.com" target="_blank"><img src={weather}></img>What's the Weather?</a>            {/* <img src={pic02} alt="" /> */}
+          </span>
+          <span className="image main">
+          <a target="_blank" href="https://what-to-say-group.herokuapp.com/#/home"><img src={withall}></img>What to Say Now</a> 
+          </span>
+          <span className="image main">
+          <a target="_blank" href="https://pauls-weekend-to-do-list.herokuapp.com/"><img src={todo}></img>Weekend Todo List</a> 
           </span>
           <p>
             Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu,
@@ -93,16 +95,13 @@ class Main extends React.Component {
         >
           <h2 className="major">About</h2>
           <span className="image main">
-            <img src={pic03} alt="" />
+            <img style={{width: "350px", height:"520px", margin:"auto"}}src={paulguitar} alt="" />
           </span>
           <p>
-            Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent
-            eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam
-            erat volutpat. Praesent urna nisi, fringila lorem et vehicula
-            lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.
-            Aliquam libero et malesuada fames ac ante ipsum primis in faucibus.
-            Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit
-            amet.
+            So a little bit about me.  I'm a Minnesota native.  I love being outdoors and enjoying all the nature my home state has to offer.
+            In my spare time I like playing guitar, drawing and painting, reading, doing Brazilian Jiu Jitsu, and builidng fun apps.  
+            I've always really enjoyed solving puzzles and recognizing patterns, which I think is why I'm drawn to programming.  
+            I am at my most productive when being challenged and engaged. 
           </p>
           {close}
         </article>
@@ -139,26 +138,13 @@ class Main extends React.Component {
           </form>
           <ul className="icons">
             <li>
-              <a
-                href="https://twitter.com/HuntaroSan"
-                className="icon fa-twitter"
-              >
-                <span className="label">Twitter</span>
-              </a>
-            </li>
-            <li>
-              <a href="https://codebushi.com" className="icon fa-facebook">
+              <a href="https://www.facebook.com/paul.molnar.3551" target="_blank" className="icon fa-facebook">
                 <span className="label">Facebook</span>
               </a>
             </li>
             <li>
-              <a href="https://codebushi.com" className="icon fa-instagram">
-                <span className="label">Instagram</span>
-              </a>
-            </li>
-            <li>
               <a
-                href="https://github.com/codebushi/gatsby-starter-dimension"
+                href="https://github.com/jpaul1982"target="_blank" 
                 className="icon fa-github"
               >
                 <span className="label">GitHub</span>
