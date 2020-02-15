@@ -57,32 +57,21 @@ class Main extends React.Component {
           <h2 className="major">Work</h2>
           <span className="image main">
           <a href="https://veronikas.herokuapp.com/#/home" target="_blank"><img src={veronikas}></img>Veronikas</a> 
-            {/* <img src={pic02} alt="" /> */}
+          <p>This was my solo project for Prime Digital Academy.  Veronikas is a web based art gallery where users can see what pieces are available for viewing, and learn a little about the artists.</p>
           </span>
           <span className="image main">
-          <a href="https://paulsweatherapp.herokuapp.com" target="_blank"><img src={weather}></img>What's the Weather?</a>            {/* <img src={pic02} alt="" /> */}
+          <a href="https://paulsweatherapp.herokuapp.com" target="_blank"><img src={weather}></img>What's the Weather?</a>   
+          <p>A weather app I made recently.  I wanted to do something that used APIs, a little animation, and some fun conditional rendering. </p>      
           </span>
           <span className="image main">
           <a target="_blank" href="https://what-to-say-group.herokuapp.com/#/home"><img src={withall}></img>What to Say Now</a> 
+          <p>"What To Say Now" is the group project I worked on at Prime.  It is an online resource for coaches and mentors to help communicate body positive messages to their students.</p>
           </span>
           <span className="image main">
           <a target="_blank" href="https://pauls-weekend-to-do-list.herokuapp.com/"><img src={todo}></img>Weekend Todo List</a> 
+          <p>My first todo list!  A rite of pasage for any software programmer. </p>
           </span>
-          <p>
-            Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu,
-            at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent
-            urna nisi, fringila lorem et vehicula lacinia quam. Integer
-            sollicitudin mauris nec lorem luctus ultrices.
-          </p>
-          <p>
-            Nullam et orci eu lorem consequat tincidunt vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus pharetra.
-            Pellentesque condimentum sem. In efficitur ligula tate urna.
-            Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor.
-            Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat
-            tempus.
-          </p>
+         
           {close}
         </article>
 
