@@ -1,6 +1,5 @@
 import PropTypes from 'prop-types'
 import React from 'react'
-import pic03 from '../images/pic03.jpg'
 import weather from "../images/WeatherApp.png"
 import veronikas from "../images/veronikas.png"
 import withall from "../images/withall.png"
