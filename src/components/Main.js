@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types'
 import React from 'react'
-import weather from "../images/WeatherApp.png"
+import weather from "../images/Weather.png"
 import veronikas from "../images/veronikas.png"
 import withall from "../images/withall.png"
 import todo from "../images/todo.png"
@@ -59,7 +59,7 @@ class Main extends React.Component {
           <p>This was my solo project for Prime Digital Academy.  Veronikas is a web based art gallery where users can see what pieces are available for viewing, and learn a little about the artists.</p>
           </span>
           <span className="image main">
-          <a href="https://paulsweatherapp.herokuapp.com" target="_blank"><img src={weather}></img>What's the Weather?</a>   
+          <a href="https://paulsweatherapp.herokuapp.com" target="_blank"><img src={weather}></img>What's the Weather Like?</a>   
           <p>A weather app I made recently.  I wanted to do something that used APIs, a little animation, and some fun conditional rendering. </p>      
           </span>
           <span className="image main">
