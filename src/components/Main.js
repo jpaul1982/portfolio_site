@@ -33,14 +33,14 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Intro</h2>
-          <span className="image main">
-            <img src={paul} alt="" />
+          <span>
+            <img style={{width:"350px",height:"350px",marginLeft:"100px" }}src={paul} alt="" />
           </span>
-          <p>
-           Hi!  I'm Paul.  I am an aspiring software developer looking to carve out a nice in the tech world to all home. 
-             I'm still fairly new to the world of software engineering, but it's been an amazing journey so far.   I graduated 
-           from the Full Stack Software Developer Bootcamp at Prime Digital Academy in Minneapolis in August of 2019.  I'm really excited by front end 
-           development in particular.  I hope you enjoy my development portfolio!
+          <p style={{marginTop:"20px"}}>
+           Hiya!  I'm Paul.  I'm an aspiring software developer looking to expand my skillset with the right team. 
+           I have one year of software experience and would love the opportunity to grow professionally.    I graduated 
+           from the Full Stack Software Developer Bootcamp at Prime Digital Academy in Minneapolis August of 2019.  
+           I hope you enjoy my development portfolio!
           </p>
           
           {close}
@@ -82,14 +82,13 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">About</h2>
-          <span className="image main">
-            <img style={{width: "350px", height:"520px", margin:"auto"}}src={paulguitar} alt="" />
+          <span>
+            <img style={{width: "300px", height:"450px", marginLeft:"130px"}}src={paulguitar} alt="" />
           </span>
-          <p>
-            So a little bit about me.  I'm a Minnesota native.  I love being outdoors and enjoying all the nature my home state has to offer.
-            In my spare time I like playing guitar, drawing and painting, reading, doing Brazilian Jiu Jitsu, and builidng fun apps.  
-            I've always really enjoyed solving puzzles and recognizing patterns, which I think is why I'm drawn to programming.  
-            I am at my most productive when being challenged and engaged. 
+          <p style={{marginTop:"20px"}}>
+            So a little bit about me.  I'm a Minnesota native.  I love being outdoors and enjoying all majesty of my home state.
+            My interests include playing guitar, painting, reading, doing Brazilian Jiu Jitsu, and trying to think of cool apps to build.  
+            Being creative with problem solving is my favorite part of development.  I find a thrill in the challenge of investigation.
           </p>
           {close}
         </article>

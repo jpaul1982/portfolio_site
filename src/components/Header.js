@@ -12,9 +12,9 @@ const Header = props => (
       <div className="inner">
         <h1>J Paul Molnar</h1>
         <p>
-        A site dedicate to sharing my development portfolio. 
+        A site dedicated to sharing my development portfolio. 
         <br/>
-          Take a look, be impressed, and contact me to set up an interview!
+          Please take a look and feel free to contact me!
         </p>
       </div>
     </div>
