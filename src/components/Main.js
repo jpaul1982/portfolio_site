@@ -6,6 +6,7 @@ import withall from "../images/withall.png"
 import todo from "../images/todo.png"
 import paul from "../images/paul.jpg"
 import paulguitar from "../images/paulguitar.jpg"
+import blogfolio from "../images/blogfolio.png"
 
 
 class Main extends React.Component {
@@ -54,6 +55,10 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Work</h2>
+          <span className="image main">
+          <a href="https://paulsblogfolio.herokuapp.com/" target="_blank"><img src={blogfolio}></img>Blogfolio</a> 
+          <p>Part blog, part portfolio.  You get it.  This is where the public can view my design work, register as users, and leave comments.</p>
+          </span>
           <span className="image main">
           <a href="https://veronikas.herokuapp.com/#/home" target="_blank"><img src={veronikas}></img>Veronikas</a> 
           <p>This was my solo project for Prime Digital Academy.  Veronikas is a web based art gallery where users can see what pieces are available for viewing, and learn a little about the artists.</p>
