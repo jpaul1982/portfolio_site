@@ -9,7 +9,7 @@ const Header = props => (
   <header id="header" style={props.timeout ? { display: 'none' } : {}}>
     <div className="logo">
       {/* <img id="logo" src={logo} alt="" /> */}
-      <span className="icon fa-diamond"></span>
+      <span className="icon fas fa-cog"></span>
     </div>
     <div className="content">
       <div className="inner">

@@ -35,7 +35,7 @@ class Main extends React.Component {
         >
           <h2 className="major">Intro</h2>
           <span>
-            <img style={{width:"350px",height:"350px",marginLeft:"100px" }}src={paul} alt="" />
+            <img style={{display:"block",width:"350px",height:"350px",margin:"auto"}}src={paul} alt="" />
           </span>
           <p style={{marginTop:"20px"}}>
            Hiya!  I'm Paul.  I'm an aspiring software developer looking to expand my skillset with the right team. 
@@ -88,7 +88,7 @@ class Main extends React.Component {
         >
           <h2 className="major">About</h2>
           <span>
-            <img style={{width: "300px", height:"450px", marginLeft:"130px"}}src={paulguitar} alt="" />
+            <img style={{display:"block", width: "300px", height:"450px", margin:"auto"}}src={paulguitar} alt="" />
           </span>
           <p style={{marginTop:"20px"}}>
             So a little bit about me.  I'm a Minnesota native.  I love being outdoors and enjoying all majesty of my home state.
